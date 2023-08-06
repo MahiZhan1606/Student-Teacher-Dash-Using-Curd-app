@@ -1,32 +1,37 @@
-.title{
+.title {
   display: flex;
   justify-content: center;
-  color:rgb(225, 56, 89);
-  font-family: 'Lucida Sans',  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(198, 8, 46);
+  font-family: 'Lucida Sans', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 40px;
-  
-  
+
+
 }
-.data{
+
+.data {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.btn{
+
+.btn {
   margin: 0 auto;
   margin-top: 10px;
 }
-.add-form{
+
+.add-form {
   display: flex;
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
   gap: 10px;
 }
-.details{
+
+.details {
   text-align: center;
 }
-.card{
+
+.card {
   max-width: 250px;
   height: auto;
   border: 2px solid brown;
@@ -39,14 +44,16 @@
   object-fit: cover;
   padding: 10px;
   color: whitesmoke;
-  background-image: linear-gradient(to top,rgba(0,0,0, 0.6)50%,rgba(0,0,0,0.6)50%),url(https://www.shutterstock.com/image-photo/teacher-asking-her-students-question-260nw-309239105.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(https://www.shutterstock.com/image-photo/teacher-asking-her-students-question-260nw-309239105.jpg);
 }
-.d-block{
+
+.d-block {
   object-fit: contain;
   height: 84vh;
 }
-#Appbar{
+
+#Appbar {
   text-align: center;
   align-items: center;
-  
+
 }
